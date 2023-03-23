@@ -1,7 +1,6 @@
-import { BrowserHistory } from 'history';
-
 export interface AppConfig {
-  history: BrowserHistory;
+  serviceName: string;
+  routeConfig: [string, string][];
 }
 
 export interface ServiceAppProps {

@@ -1,3 +1,1 @@
-export interface LayoutProps {
-  key?: any;
-}
+export interface LayoutProps {}

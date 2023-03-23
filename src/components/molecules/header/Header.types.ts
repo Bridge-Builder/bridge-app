@@ -1,3 +1,1 @@
-export interface HeaderProps {
-  key?: any;
-}
+export interface HeaderProps {}
