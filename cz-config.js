@@ -10,7 +10,7 @@ module.exports = {
     { value: '🚚chore', name: '🚚chore | 사소한 변경사항이나, 패키지매니저를 관리해요.' },
     { value: '↩️ revert', name: '↩️ revert | 이전의 코드로 되돌려요.' },
     { value: '🏂move', name: '🏂move | 디렉토리, 파일이나 코드를 새로운 위치로 이동시켜요.' },
-    { value: '🗑remove', name: '🗑revert | 쓸모없는 디렉토리, 파일이나 코드를 삭제해요.' },
+    { value: '🗑remove', name: '🗑remove | 쓸모없는 디렉토리, 파일이나 코드를 삭제해요.' },
     { value: '⚙️ ci', name: '⚙️ ci | CI를 업데이트해요.' }
   ],
   allowCustomScopes: true,
