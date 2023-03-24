@@ -13,7 +13,29 @@ module.exports = {
     { value: '🗑remove', name: '🗑revert | 쓸모없는 디렉토리, 파일이나 코드를 삭제해요.' },
     { value: '⚙️ ci', name: '⚙️ ci | CI를 업데이트해요.' }
   ],
-  // allowCustomScopes: false,
+  allowCustomScopes: true,
+  scopes: [
+    'component',
+    'css-style',
+    'custom-hook',
+    'store',
+    'util',
+    'api',
+    'wrong codes',
+    'spaghetti codes',
+    'alien codes',
+    'assets',
+    'package',
+    'lint',
+    'formatting',
+    'config',
+    'workflow',
+    // NOTE: .releaserc.js
+    'breaking',
+    'no-release',
+    'README'
+  ],
+  allowCustomScopes: true,
   allowBreakingChanges: ['feat', 'fix'],
   skipQuestions: ['body'],
   subjectLimit: 100
