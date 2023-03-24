@@ -5,7 +5,7 @@ const prisma = new PrismaClient();
 // @ts-ignore
 const userData: Prisma.UserCreateInput[] = [
   {
-    name: 'Alice',
+    name: '국영현',
     email: 'alice@prisma.io',
     posts: {
       create: [

@@ -4,6 +4,14 @@ export enum ROUTE {
    */
   INDEX = '/',
   /**
+   * 로그인 페이지 라우트 주소
+   */
+  LOGIN = '/login',
+  /**
+   * 회원가입 페이지 라우트 주소
+   */
+  LOGIN_JOIN = '/login/join',
+  /**
    * 클래스 오프라인 강좌 리스트 라우트 주소
    */
   CLASS_OFFLINE = '/class/offline',

@@ -58,7 +58,9 @@ const Header: FC<HeaderProps> = props => {
             <MenuList>장소 대관</MenuList>
           </UnOrderList>
         </DocGnb>
-        <HeadUtils>{'헤드 유틸영역'}</HeadUtils>
+        <HeadUtils>
+          <StyledLink href={ROUTE.LOGIN}>Login</StyledLink>
+        </HeadUtils>
       </InnerHeader>
     </HeaderContainer>
   );
