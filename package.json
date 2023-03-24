@@ -9,8 +9,7 @@
     "lint": "next lint",
     "seed": "ts-node prisma/seed",
     "migrate": "npx prisma migrate dev --name init",
-    "studio": "npx prisma studio",
-    "cm": "cz"
+    "studio": "npx prisma studio"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
