@@ -1,5 +1,6 @@
 {
   "name": "bridge-app",
+  "repository": "https://github.com/Bridge-Builder/bridge-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
