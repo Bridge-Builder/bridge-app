@@ -2,9 +2,8 @@ import Head from 'next/head';
 import { ArticleMain } from '@/styles/pages/Main.styles';
 import { useApp } from '@/components/providers/serviceApp/ServiceApp';
 import Router from 'next/router';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { ROUTE } from '@/config/routeConfig';
-import { API_ROUTE } from '@/pages/api/interface/route';
 import { fetchPostUserJoin } from '@/pages/api/axios/user';
 
 export default function LoginJoin() {
