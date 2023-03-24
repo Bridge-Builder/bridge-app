@@ -30,7 +30,7 @@ module.exports = {
     'formatting',
     'config',
     'workflow',
-    // NOTE: .releaserc.js
+    // NOTE: .releaserc.js.js
     'breaking',
     'no-release',
     'README'
