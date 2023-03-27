@@ -1,7 +1,5 @@
 name: Release-CI
 
-permissions: read-all|write-all
-
 on:
   push:
     branches:
