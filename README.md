@@ -1,3 +1,5 @@
+[![Release-CI](https://github.com/Bridge-Builder/bridge-app/actions/workflows/release-ci.yml/badge.svg)](https://github.com/Bridge-Builder/bridge-app/actions/workflows/release-ci.yml)
+
 # Bridge App
 
 ## 설명
