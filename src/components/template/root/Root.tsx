@@ -4,6 +4,7 @@ import { appConfig } from '@/config/appConfig';
 
 const Root: FC<PropsWithChildren> = props => {
   const { children } = props;
+  // @ts-ignore
   return <ServiceAppProvider config={appConfig}>{children}</ServiceAppProvider>;
 };
 

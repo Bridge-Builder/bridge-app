@@ -1,6 +1,8 @@
+import { ROUTE } from '@/config/routeConfig';
+
 export interface AppConfig {
   serviceName: string;
-  routeConfig: [string, string][];
+  routeConfig: [ROUTE, string][];
 }
 
 export interface ServiceAppProps {

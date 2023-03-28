@@ -1,6 +1,6 @@
 import { createContext, FC, PropsWithChildren, useContext, useEffect, useState } from 'react';
 import { ServiceAppProps, ServiceContext } from './ServiceApp.types';
-import { filter, head, nth, pipe, tap } from 'ramda';
+import { filter, head, pipe } from 'ramda';
 
 const ServiceAppContext = createContext<ServiceContext>({} as ServiceContext);
 
