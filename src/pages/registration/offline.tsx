@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import RegistrationOnLine from '@/pages/registration/online';
 
 export default function RegistrationOffline() {
   return (

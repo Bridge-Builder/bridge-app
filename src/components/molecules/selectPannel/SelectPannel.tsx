@@ -1,6 +1,5 @@
 import { FC } from 'react';
 import { SelectPannelProps } from './SelectPannel.types';
-import Link from 'next/link';
 import {
   SelectPannelBox,
   SelectPannelBtn,
