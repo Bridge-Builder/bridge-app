@@ -7,6 +7,4 @@ export const StyledButton = styled.button((props: ButtonProps) => {
   return { backgroundColor: color || 'red', fontColor: fontColor || '#000' };
 });
 
-export const StyledButton1 = styled.button`
-  display: block;
-`;
+export const StyledButton1 = styled(StyledButton)``;

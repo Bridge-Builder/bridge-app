@@ -14,10 +14,10 @@ model User {
   id             Int            @id @default(autoincrement())
   email          String         @unique
   name           String?
-  role           String?        @default("user")
-  offlineClesses OfflineClass[]
+  role           Role?          @default(USER)
+  offlineClesses  OfflineClass[]
   onlineClasses  OnlineClass[]
-  posts           Post[]
+  posts          Post[]
 }
 
 model Post {
@@ -54,4 +54,9 @@ model OnlineClass {
   viewCount Int      @default(0)
   speker    User?    @relation(fields: [spekerId], references: [id])
   spekerId  Int?
+}
+
+enum Role {
+  USER
+  ADMIN
 }
