@@ -3,13 +3,7 @@ import { LayoutProps } from './Layout.types';
 import { DocMain, DocContainer } from '@/components/template/layout/Layout.styles';
 import Header from '@/components/molecules/header/Header';
 import Footer from '@/components/molecules/footer/Footer';
-import { Roboto } from 'next/font/google';
-
-const roboto = Roboto({
-  weight: ['400', '700'],
-  style: ['normal', 'italic'],
-  subsets: ['latin']
-});
+import { roboto } from '@/config/fontConfig';
 
 const Layout: FC<PropsWithChildren<LayoutProps>> = props => {
   const { children } = props;

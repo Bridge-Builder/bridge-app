@@ -4,7 +4,7 @@ import { useApp } from '@/components/providers/serviceApp/ServiceApp';
 import Router from 'next/router';
 import React, { useState } from 'react';
 import { ROUTE } from '@/config/routeConfig';
-import { fetchPostUserJoin } from '@/pages/api/axios/user';
+import { fetchPostUserJoin } from '@/axios/user';
 
 export default function LoginJoin() {
   const { headTitle } = useApp();

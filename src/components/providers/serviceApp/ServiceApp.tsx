@@ -20,7 +20,7 @@ export function useApp() {
       head,
       (v: [string, string]) => (v !== undefined ? v[1] : 'bridge')
     )(routeConfig);
-    setHeadTitle(headTitle);
+    setHeadTitle(`${serviceName} | ${headTitle}`);
   }, []);
 
   return { serviceName, headTitle };

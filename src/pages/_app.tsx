@@ -3,13 +3,10 @@ import '@/styles/global.css';
 import type { AppProps } from 'next/app';
 import Layout from '@/components/template/layout/Layout';
 import Root from '@/components/template/root/Root';
-import React, { useEffect } from 'react';
+import React from 'react';
 import Head from 'next/head';
 
 export default function App({ Component, pageProps }: AppProps) {
-  useEffect(() => {
-    console.log('');
-  }, []);
   return (
     <Root>
       <Layout>
