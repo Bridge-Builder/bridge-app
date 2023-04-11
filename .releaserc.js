@@ -19,22 +19,22 @@ module.exports = {
           {"scope": "no-release", "release": false},
           {"scope": "breaking", "release": "major"},
 
-          {"type": "docs", "scope": "README", "release": "patch"},
+          // {"type": "docs", "scope": "README", "release": "patch"},
 
           {"type": "feat", "release": "minor"},
           {"type": "fix", "release": "patch"},
 
-          {"type": "refactor", "scope": "core-*", "release": "minor"},
+          // {"type": "refactor", "scope": "core-*", "release": "minor"},
           {"type": "refactor", "release": "patch"},
 
-          {"type": "style", "release": "patch"},
-          {"type": "perf", "release": "patch"},
+          // {"type": "style", "release": "patch"},
+          // {"type": "perf", "release": "patch"},
           {"type": "revert", "release": "patch"},
 
-          {"type": "move", "release": false},
-          {"type": "remove", "release": false},
-          {"type": "chore", "release": false},
-          {"type": "ci", "release": false},
+          // {"type": "move", "release": false},
+          // {"type": "remove", "release": false},
+          // {"type": "chore", "release": false},
+          // {"type": "ci", "release": false},
           {"type": "test", "release": false},
         ],
         "parserOpts": {
